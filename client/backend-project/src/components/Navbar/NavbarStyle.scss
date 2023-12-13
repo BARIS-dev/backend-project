@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+
+  height: 5rem;
+  width: 100%;
+  .nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    .nav-line {
+      height: 1.4rem;
+      width: 1px;
+      background-color: white;
+    }
+  }
+  .nav-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    .site-description {
+      border-bottom: 1px dotted white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.2rem;
+      svg {
+        font-size: 0.7rem;
+      }
+    }
+  }
+  .nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ul.social-links,
+    li,
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      list-style-type: none;
+      a {
+        font-size: 1.5rem;
+        padding: 0.4rem;
+      }
+    }
+  }
+}

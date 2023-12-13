@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100vh;
+  padding: 0.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+span {
+  color: #646cff;
+}
+.warning {
+  color: red;
+  background-color: #ff000024;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}

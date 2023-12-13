@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.2rem;
+  input {
+    padding: 1rem;
+  }
+
+  .input-row {
+    display: flex;
+    width: 100%;
+    gap: 0.2rem;
+
+    #firstname,
+    #lastname,
+    #password,
+    #password-confirm {
+      flex: 1;
+    }
+  }
+  small {
+    margin: 0.5rem auto;
+  }
+}
