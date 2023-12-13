@@ -4,7 +4,7 @@ const NavbarItem = () => {
   return (
     <nav className="navbar">
       <div className="nav-left">
-        <div className="nav-logo">BARIS</div>
+        <div className="nav-logo">BARIŞ</div>
         <div className="nav-line"></div>
         <div className="nav-header">
           <h3>Backend Project for DCI</h3>
