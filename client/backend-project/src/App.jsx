@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <h2>
-        <span>Welcome</span> to my project for the end of the backend-module at
+        <span>Welcome</span> to my project for the end of the backend module at
         the <span>DCI</span>.
       </h2>
       <h3>What is this site about?</h3>
@@ -24,7 +24,6 @@ function App() {
           This is just a small project of mine for testing purposes.
         </small>
       </div>
-
       <FormItem />
     </>
   );

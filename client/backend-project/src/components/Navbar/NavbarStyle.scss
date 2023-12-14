@@ -3,8 +3,14 @@
   justify-content: space-around;
   align-self: center;
 
+  position: fixed;
+  top: 0;
+  left: 0;
+
   height: 5rem;
   width: 100%;
+  background-color: #303030;
+
   .nav-left {
     display: flex;
     align-items: center;

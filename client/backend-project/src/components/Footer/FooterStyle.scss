@@ -1,0 +1,18 @@
+.footer {
+  height: 5rem;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #15183a;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 1rem 0;
+  margin: 1rem auto;
+
+  p {
+    color: #646cff;
+  }
+}

@@ -3,10 +3,12 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import NavbarItem from "./components/Navbar/NavbarItem.jsx";
+import FooterItem from "./components/Footer/FooterItem.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <NavbarItem />
     <App />
+    <FooterItem />
   </React.StrictMode>
 );
